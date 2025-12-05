@@ -1,25 +1,39 @@
-# Selenium
+# Selenium Test Automation Suite
 
-This project demonstrates tests that can be performed with Selenium WebDriver using TestNG implementing Page Object Model (POM) for reusability and organizarion..
+This project demonstrates automated tests using **Selenium WebDriver**
+with **TestNG**, following the **Page Object Model (POM)** for improved
+reusability, scalability, and maintainability.
 
-versions
-java - 21
-selenium - 4
-testNG - 7
+## 🔧 Tech Stack & Versions
 
-The website for https://practicetestautomation.com/
+-   **Java:** 21\
+-   **Selenium:** 4\
+-   **TestNG:** 7\
+-   **Design Pattern:** Page Object Model (POM)
 
-Test methods:
+## 🌐 Test Website
 
-Class: LoginTests
+All tests are performed on:\
+https://practicetestautomation.com/
 
-positiveLoginTeat
-negativeLoginTest
+## 🧪 Test Methods Overview
 
-Class: ExceptionTests
+### **Class: LoginTests**
 
-noSuchElementExceptionTest
-timeoutExceptionTest
-elementNotInteractableExceptionTest
-invalidElementStateExceptionTest
-staleElementReferenceExceptionTest
+-   `positiveLoginTest()`\
+-   `negativeLoginTest()`
+
+### **Class: ExceptionTests**
+
+-   `noSuchElementExceptionTest()`\
+-   `timeoutExceptionTest()`\
+-   `elementNotInteractableExceptionTest()`\
+-   `invalidElementStateExceptionTest()`\
+-   `staleElementReferenceExceptionTest()`
+
+------------------------------------------------------------------------
+
+## 📁 Project Summary
+
+This suite validates positive and negative login scenarios and handles
+various Selenium exceptions to ensure robust and stable test execution.
